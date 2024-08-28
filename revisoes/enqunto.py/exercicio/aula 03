@@ -1,0 +1,19 @@
+frutas = [
+    "maçã",
+    "abacaxi",
+    "tomate",
+    "banana",
+    "kiwi",
+    "abacati",
+    "melão",
+    "limão",
+    "pera"
+]
+
+frutas.sort()
+frutas.append("limão")
+frutas.reverse()
+y = 1
+for x in frutas:
+    print(y,"-",x)
+    y = y + 1
